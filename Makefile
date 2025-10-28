@@ -1,2 +1,2 @@
 serve:
-	trunk serve --open
+	RUSTFLAGS="--cfg erase_components" trunk serve --open
